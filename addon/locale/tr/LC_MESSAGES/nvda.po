@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ses Video Dönüştürücü\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2025-11-03 11:43+0100\n"
+"POT-Creation-Date: 2026-01-24 19:39+0100\n"
 "PO-Revision-Date: 2024-04-20 18:54+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
@@ -33,61 +33,61 @@ msgstr ""
 "Yerel olarak kendiniz deneyin veya bu eklentinin yazarıyla iletişime geçin."
 
 #. Translators: Could not create  folder.
-#: addon\globalPlugins\AVC\__init__.py:542
+#: addon\globalPlugins\AVC\__init__.py:544
 msgid "Error - can not create folder"
 msgstr "Hata - klasör oluşturulamıyor"
 
 #. Translators: The user is not in a browser.
-#: addon\globalPlugins\AVC\__init__.py:596
+#: addon\globalPlugins\AVC\__init__.py:598
 msgid "No browser window found"
 msgstr "Tarayıcı penceresi bulunamadı"
 
 #. Translators: No URL found in browser document, function terminate
-#: addon\globalPlugins\AVC\__init__.py:784
-#: addon\globalPlugins\AVC\__init__.py:1175
+#: addon\globalPlugins\AVC\__init__.py:786
+#: addon\globalPlugins\AVC\__init__.py:1177
 msgid "Document URL not found - exit"
 msgstr "Belge Bağlantısı bulunamadı - çık"
 
 #. Translators: save YouTube Video as MP3 or MP4
-#: addon\globalPlugins\AVC\__init__.py:795
+#: addon\globalPlugins\AVC\__init__.py:797
 #, python-brace-format
 msgid "Save YouTube Video as {MultimediaFormat}"
 msgstr "YouTube Videosunu {MultimediaFormat} olarak kaydet"
 
 #. Translators: save multimedia link  as MP3 or MP4
-#: addon\globalPlugins\AVC\__init__.py:830
+#: addon\globalPlugins\AVC\__init__.py:832
 #, python-brace-format
 msgid "Save link as {MultimediaFormat}"
 msgstr "Bağlantıyı {MultimediaFormat} olarak kaydet"
 
 #. Translators: No YouTube video and no multimedia link found
-#: addon\globalPlugins\AVC\__init__.py:837
+#: addon\globalPlugins\AVC\__init__.py:839
 msgid "No YouTube video and no multimedia link found"
 msgstr "YouTube videosu ve multimedya bağlantısı bulunamadı"
 
 #. this groupBox code is based on "NVDA Dev & Test Toolbox" from Cyrille Bougot, thanks
 #. Translators: This is a label for an edit field in the AVC Settings panel.
-#: addon\globalPlugins\AVC\__init__.py:847
+#: addon\globalPlugins\AVC\__init__.py:849
 msgid "Result folder"
 msgstr "Sonuç klasörü"
 
 #. Translators: The label of a button to browse for a directory
-#: addon\globalPlugins\AVC\__init__.py:852
+#: addon\globalPlugins\AVC\__init__.py:854
 msgid "&Browse..."
 msgstr "&Gözat..."
 
 #. Translators: The title of the dialog presented when browsing for the directory.
-#: addon\globalPlugins\AVC\__init__.py:854
+#: addon\globalPlugins\AVC\__init__.py:856
 msgid "Select a directory"
 msgstr "Bir dizin seçin"
 
 #. Translators: Checkbox name for sound signal feedback in the configuration dialog
-#: addon\globalPlugins\AVC\__init__.py:861
+#: addon\globalPlugins\AVC\__init__.py:863
 msgid "&beep while converting"
 msgstr "dönüştürürken &bip sesi çal"
 
 #. Translators: Checkbox name in the configuration dialog  for video description
-#: addon\globalPlugins\AVC\__init__.py:866
+#: addon\globalPlugins\AVC\__init__.py:868
 msgid "&Write YoutTube description file"
 msgstr "YouTube açıklama dosyası &oluştur"
 
@@ -96,31 +96,31 @@ msgstr "YouTube açıklama dosyası &oluştur"
 #. self.YouTubeSubtitleChk.Bind(wx.EVT_CHECKBOX, self.onChk)
 #. self.YouTubeSubtitleChk.Value = getINI("YouTubeSubtitle")
 #. Translators: Checkbox name in the configuration dialog  for youtube Playlist
-#: addon\globalPlugins\AVC\__init__.py:876
+#: addon\globalPlugins\AVC\__init__.py:878
 msgid "Download the &play list completely"
 msgstr ""
 
 #. Translators: Checkbox name in the configuration dialog  for youtube Channel
-#: addon\globalPlugins\AVC\__init__.py:881
+#: addon\globalPlugins\AVC\__init__.py:883
 msgid "Download the &channel completely"
 msgstr ""
 
 #. Translators: label for selecting the language for the subtitle
-#: addon\globalPlugins\AVC\__init__.py:897
+#: addon\globalPlugins\AVC\__init__.py:899
 msgid "Subtitle &Language:"
 msgstr ""
 
 #. Translators: Checkbox name in the configuration dialog for AVC logging
-#: addon\globalPlugins\AVC\__init__.py:906
+#: addon\globalPlugins\AVC\__init__.py:908
 msgid "Write &report file"
 msgstr "&Rapor dosyası yaz"
 
 #. Translator: Title of error dialog "Folder does not exist"
-#: addon\globalPlugins\AVC\__init__.py:924
+#: addon\globalPlugins\AVC\__init__.py:926
 msgid "Error - Folder does not exist"
 msgstr "Hata - Klasör mevcut değil"
 
-#: addon\globalPlugins\AVC\__init__.py:927
+#: addon\globalPlugins\AVC\__init__.py:929
 #, python-brace-format
 msgid ""
 "The folder ({folderPath}) does not exist.\n"
@@ -132,11 +132,11 @@ msgstr ""
 "Değişiklikler kaydedilemedi."
 
 #. Translator: Title of error dialog "No write access to folder"
-#: addon\globalPlugins\AVC\__init__.py:945
+#: addon\globalPlugins\AVC\__init__.py:947
 msgid "Error - No write access to folder"
 msgstr "Hata - Klasöre yazma erişimi yok"
 
-#: addon\globalPlugins\AVC\__init__.py:948
+#: addon\globalPlugins\AVC\__init__.py:950
 #, python-brace-format
 msgid ""
 "No write access to folder {folderPath} (Code: {code})\n"
@@ -148,7 +148,7 @@ msgstr ""
 "Değişiklikler kaydedilemedi."
 
 #. Translators: A system error message to translate
-#: addon\globalPlugins\AVC\__init__.py:1010
+#: addon\globalPlugins\AVC\__init__.py:1012
 #, python-brace-format
 msgid ""
 "Unable to download video subtitles for {language}: HTTP Error 429: Too Many "
@@ -156,51 +156,51 @@ msgid ""
 msgstr ""
 
 #. Translators: Error, if subtitle is not available
-#: addon\globalPlugins\AVC\__init__.py:1016
+#: addon\globalPlugins\AVC\__init__.py:1018
 #, python-brace-format
 msgid "Error: {error}"
 msgstr ""
 
 #. Translators: if there is no subtitle for the current language
-#: addon\globalPlugins\AVC\__init__.py:1027
+#: addon\globalPlugins\AVC\__init__.py:1029
 #, python-brace-format
 msgid "No subtitles available in {language}."
 msgstr ""
 
 #. Translators: The converting process will terminate by user
-#: addon\globalPlugins\AVC\__init__.py:1084
+#: addon\globalPlugins\AVC\__init__.py:1086
 msgid "The converting process will terminate."
 msgstr "Dönüştürme işlemi sonlandırılacak."
 
 #. Translators: Canceling process by user. No converting task active.
-#: addon\globalPlugins\AVC\__init__.py:1094
+#: addon\globalPlugins\AVC\__init__.py:1096
 msgid "No converting task active."
 msgstr "Devam eden dönüştürme işlemi bulunmuyor."
 
-#: addon\globalPlugins\AVC\__init__.py:1135
+#: addon\globalPlugins\AVC\__init__.py:1137
 msgid "Save as MP3"
 msgstr "MP3 olarak kaydet"
 
-#: addon\globalPlugins\AVC\__init__.py:1143
+#: addon\globalPlugins\AVC\__init__.py:1145
 msgid "Save as MP4"
 msgstr "MP4 olarak kaydet"
 
-#: addon\globalPlugins\AVC\__init__.py:1151
+#: addon\globalPlugins\AVC\__init__.py:1153
 msgid "Open result folder"
 msgstr "Sonuç klasörünü açar"
 
-#: addon\globalPlugins\AVC\__init__.py:1161
+#: addon\globalPlugins\AVC\__init__.py:1163
 msgid "Saves the subtitle of a YouTube video"
 msgstr ""
 
 #. Translators: Save the subtitle in the specified language
-#: addon\globalPlugins\AVC\__init__.py:1184
+#: addon\globalPlugins\AVC\__init__.py:1186
 #, python-brace-format
 msgid "Save subtitle in {language}"
 msgstr ""
 
 #. Translators: No YouTube video link found
-#: addon\globalPlugins\AVC\__init__.py:1205
+#: addon\globalPlugins\AVC\__init__.py:1207
 #, fuzzy
 msgid "No YouTube video link found"
 msgstr "YouTube videosu ve multimedya bağlantısı bulunamadı"

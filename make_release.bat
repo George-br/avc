@@ -36,6 +36,7 @@ pause
 echo.
 echo === Änderungen und Tag werden gepusht ===
 git push origin master
+pause 
 git push origin %version%
 pause 
 echo.

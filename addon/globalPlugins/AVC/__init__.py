@@ -4,7 +4,7 @@
  Audio Video Converter for NVDA 
  This file is covered by the GNU General Public License.
  See the file COPYING for more details.
- Copyright (C) 2022/2025 Rainer Brell nvda@brell.net 
+ Copyright (C) 2022/2026 Rainer Brell nvda@brell.net 
 
  *** 22. Nov 2022, Version 1.0
  NVDA+y         Converts to MP3 
@@ -48,8 +48,10 @@
   - More and better error messages when generating subtitles
   - For subtitles, the language can now be selected in the NVDA menu
   - Playlists and channels are no longer automatically loaded completely. Can be set in the NVDA menu
+  *** 2026.01.24:
+  - Modifiy eng docs and make stable release 
  
- *** In Progress for future  *** 
+ *** for future  *** 
  - The conversion process can be killed 
  - Function for conversion into  windows explorer 
  - Password-protected access to YouTube videos
