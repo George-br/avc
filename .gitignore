@@ -1,9 +1,12 @@
 addon/doc/*.css
+addon/doc/en/
 *_docHandler.py
 *.html
 manifest.ini
-*.bat
 *.mo
+go.bat
+make_release.bat
+pot.bat
 *.py[co]
 *.nvda-addon
 .sconsign.dblite

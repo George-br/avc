@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'AVC' '2024.04.26'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-01-24 19:39+0100\n"
+"POT-Creation-Date: 2026-02-22 15:01+0100\n"
 "PO-Revision-Date: 2025-11-01 16:35+0200\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: \n"
@@ -205,16 +205,16 @@ msgstr "Tallenna tekstitys kielellä {language}"
 msgid "No YouTube video link found"
 msgstr "YouTube-videon linkkiä ei löydy"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
-#: buildVars.py:23
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "Audio Video Converter"
 msgstr "Ääni- ja videomuunnin"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid ""
 "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "
 "the browser:\n"
@@ -229,6 +229,17 @@ msgstr ""
 "\tNVDA+Vaihto+Y: Muuntaa nykyisen videon MP4-muotoon.\n"
 "\tNVDA+Ctrl+Y: Avaa muunnettujen tiedostojen kansion.\n"
 "\tNVDA+Alt+Y: Tallentaa videon tekstityksen tekstimuodossa."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:34
+msgid ""
+"* Version: 2026.02.22\n"
+"- Prepared for NVDA 2026.1\n"
+"- If an invalid \"result folder\" is found when starting AVC, this no longer "
+"causes AVC to crash\n"
+"- Updated localization for Vietnamese"
+msgstr ""
 
 #~ msgid ""
 #~ "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "

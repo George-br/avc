@@ -22,44 +22,34 @@ Trong quá trình chuyển đổi, một tiếng bíp nhỏ sẽ phát ra để 
 
 Kết quả được lưu trong thư mục riêng mà bạn có thể truy cập bằng một phím nóng. Thư mục này có thể được tùy chỉnh trong cài đặt của NVDA.
 
+Các kênh hoặc danh sách phát không được tự động lưu đầy đủ. Hành vi này có thể được cấu hình trong menu NVDA.
+
+Giờ đây, bạn cũng có thể trích xuất phụ đề của video YouTube dưới dạng văn bản - ngay cả đối với tiếng nước ngoài.
+
+Ví dụ: Ngôn ngữ của bạn là tiếng Tây Ban Nha và bạn đang phát video YouTube bằng tiếng Ý. Nhấn **NVDA+Alt+Y**, và addon sẽ cố lưu nội dung được nói dưới dạng văn bản tiếng Tây Ban Nha. Điều này không phải lúc nào cũng hiệu quả vì nó phụ thuộc vào nhiều yếu tố kỹ thuật mà tôi không thể tác động được. Ngôn ngữ đích có thể được cài đặt trong menu NVDA.
+
 ### Phím tắt
 
-* NVDA+y, Chuyển đổi sang MP3
-* NVDA+shift+y, Chuyển đổi sang MP4
-* NVDA+Control+y, Mở thư mục chứa kết quả
+* **NVDA+Y** – Chuyển đổi sang MP3
+* **NVDA+Shift+Y** – Chuyển đổi sang MP4
+* **NVDA+Alt+Y** – Lưu phụ đề dưới dạng văn bản, nếu có
+* **NVDA+Ctrl+Y** – Mở thư mục chứa kết quả
 
-## Các định dạng này được nhận dạng
+## Các định dạng này được hỗ trợ
 
-Các định dạng âm thanh và video này được nhận dạng và chuyển đổi sang định dạng mong muốn khi bạn truy cập liên kết đa phương tiện có một trong các tiện ích mở rộng này.
+Các định dạng âm thanh và video này được hỗ trợ và chuyển đổi sang định dạng mong muốn khi bạn truy cập liên kết đa phương tiện có một trong các tiện ích mở rộng này.
 
-* aac 
-* avi 
-* flac 
-* mkv 
-* m3u8 
-* m4a 
-* m4s 
-* m4v 
-* mpg 
-* mov 
-* mp2 
-* mp3 
-* mp4 
-* mpeg 
-* mpegts 
-* ogg 
-* ogv 
-* oga 
-* ts 
-* vob 
-* wav 
-* webm 
-* wmv 
-* f4v 
-* flv
-* swf 
-* avchd
-* 3gp
+aac, avi, flac, mkv, m3u8, m4a, m4s, m4v, mpg, mov, mp2, mp3, mp4, mpeg, mpegts, ogg, ogv, oga, ts, vob, wav, webm, wmv, f4v, flv, swf, avchd, 3gp
+
+## thay đổi cho phiên bản2026.01.24
+
+* “Đọc khi cần thiết” đã hoạt động  
+* Các thành phần nền được cập nhật tự động  
+* Ghi nhật ký nhiều hơn để cung cấp hỗ trợ tốt hơn trong trường hợp có vấn đề  
+* đã thêm lưu phụ đề  
+* đã thêm chọn ngôn ngữ phụ đề  
+* Danh sách phát và kênh không còn được tải hoàn toàn theo mặc định; có thể được cấu hình trong menu NVDA  
+* Đã dịch sang tiếng Ả rập và tiếng phần lan  
 
 ## Những thay đổi trong phiên bản hiện tại
 
@@ -68,8 +58,8 @@ Các định dạng âm thanh và video này được nhận dạng và chuyển
 * Được lưu trữ trên GitHub và có sẵn trong NVDA Store
 * Thư mục kết quả có thể được tùy chỉnh trong cài đặt NVDA
 * Cài đặt hiện được lưu một cách đáng tin cậy
-* Bản địa hóa bằng tiếng Thổ Nhĩ Kỳ, tiếng Việt và tiếng Ukraina
+* đã có bản  dịch cho tiếng Thổ Nhĩ Kỳ, tiếng Việt và tiếng Ukraina
 
-## cảm ơn rất nhiều
+## lời cảm ơn 
 
 Cảm ơn tất cả những người trợ giúp đã dành thời gian dịch tiện ích mở rộng của tôi và đưa ra phản hồi.

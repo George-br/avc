@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Audio Video Converter 2024.04.18\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-01-24 19:39+0100\n"
+"POT-Creation-Date: 2026-02-22 15:01+0100\n"
 "PO-Revision-Date: 2024-04-20 19:14+0300\n"
 "Last-Translator: Ivan Shtefuriak <ip0877@gmail.com>\n"
 "Language-Team: Ukrainian comunity NVDA\n"
@@ -206,16 +206,16 @@ msgstr ""
 msgid "No YouTube video link found"
 msgstr "Не знайдено жодного YouTube відео, чи мультимедійного посилання"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
-#: buildVars.py:23
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "Audio Video Converter"
 msgstr "Аудіо Відео Конвертер"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid ""
 "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "
 "the browser:\n"
@@ -223,6 +223,17 @@ msgid ""
 "\tNVDA+Shift+y, Converts the current video to MP4\n"
 "\tNVDA+Control+y, Opens the folder with the converted files\n"
 "\tNVDA+Alt+y, Saves the subtitle of the video as text."
+msgstr ""
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:34
+msgid ""
+"* Version: 2026.02.22\n"
+"- Prepared for NVDA 2026.1\n"
+"- If an invalid \"result folder\" is found when starting AVC, this no longer "
+"causes AVC to crash\n"
+"- Updated localization for Vietnamese"
 msgstr ""
 
 #~ msgid ""

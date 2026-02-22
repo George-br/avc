@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-01-24 19:39+0100\n"
-"PO-Revision-Date: 2026-01-24 19:52+0100\n"
+"POT-Creation-Date: 2026-02-22 15:01+0100\n"
+"PO-Revision-Date: 2026-02-22 15:06+0100\n"
 "Last-Translator: Rainer Brell <nvda@brell.net>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -206,16 +206,16 @@ msgstr "Untertitel in {language} speichern"
 msgid "No YouTube video link found"
 msgstr "Kein YouTube -Videolink gefunden"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
-#: buildVars.py:23
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "Audio Video Converter"
 msgstr "Audio Video Konverter"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid ""
 "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "
 "the browser:\n"
@@ -231,6 +231,22 @@ msgstr ""
 "nvda+Umschalt+y, konvertiert das aktuelle Video in MP4 \n"
 "nvda+Steuerung+y, öffnet den Ordner mit den konvertierten Dateien\n"
 "nvda+Alt+y, speichert den Untertitel des Videos als Text, wenn möglich."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:34
+msgid ""
+"* Version: 2026.02.22\n"
+"- Prepared for NVDA 2026.1\n"
+"- If an invalid \"result folder\" is found when starting AVC, this no longer "
+"causes AVC to crash\n"
+"- Updated localization for Vietnamese"
+msgstr ""
+"* Version: 2026.02.22\n"
+"- Vorbereitet für NVDA 2026.1\n"
+"- Wenn beim Starten von AVC ein ungültiger „Ergebnisordner“ gefunden wird, "
+"führt dies nicht mehr zum Absturz von AVC.\n"
+"- Aktualisierte Lokalisierung für Vietnamesisch"
 
 #~ msgid ""
 #~ "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "

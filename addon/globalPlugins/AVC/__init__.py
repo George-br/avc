@@ -50,6 +50,10 @@
   - Playlists and channels are no longer automatically loaded completely. Can be set in the NVDA menu
   *** 2026.01.24:
   - Modifiy eng docs and make stable release 
+  *** 2026.02.22
+  - First Verson for 2026.1 with new addon template 
+  - New Vietnamese localization added 
+  - Bugfix: No crash when starting the addon if the result folder is invalid
  
  *** for future  *** 
  - The conversion process can be killed 
@@ -1119,7 +1123,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		# if globalVars.appArgs.secure: return 
-		if getINI("ResultFolder") == "":
+		rf = getINI("ResultFolder")
+		if rf == "" or not os.path.isdir(rf):
 			setINI("ResultFolder", DownloadPath) 
 		CheckFolders()
 		log("AVC Version: " + AddOnVersion)
