@@ -28,7 +28,7 @@ addon_info = AddonInfo(
 	NVDA+Alt+y, Saves the subtitle of the video as text."""
 	),
 	# version
-	addon_version="2026.02.22",
+	addon_version="2026.04.10",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""* Version: 2026.02.22
