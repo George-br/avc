@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Audio Video Converter 2024.04.18\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2025-06-29 20:26+0200\n"
-"PO-Revision-Date: 2024-04-20 19:14+0300\n"
+"POT-Creation-Date: 2026-04-18 21:42+0300\n"
+"PO-Revision-Date: 2026-04-18 21:46+0300\n"
 "Last-Translator: Ivan Shtefuriak <ip0877@gmail.com>\n"
 "Language-Team: Ukrainian comunity NVDA\n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: Title of the window if an error occurred during unpacking.
 #: addon\installTasks.py:63
@@ -153,19 +153,18 @@ msgstr "Відкрити папку з результатами"
 
 #: addon\globalPlugins\AVC\__init__.py:856
 msgid "Saves the subtitle of a YouTube video"
-msgstr ""
+msgstr "Зберігає субтитри відео з YouTube"
 
 #. Translators: Save the subtitle in the specified language
 #: addon\globalPlugins\AVC\__init__.py:879
 #, python-brace-format
 msgid "Save subtitle in {language}"
-msgstr ""
+msgstr "Зберегти субтитри такою мовою: {language}"
 
 #. Translators: No YouTube video link found
 #: addon\globalPlugins\AVC\__init__.py:900
-#, fuzzy
 msgid "No YouTube video link found"
-msgstr "Не знайдено жодного YouTube відео, чи мультимедійного посилання"
+msgstr "Посилання на відео YouTube не знайдено"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
@@ -185,6 +184,12 @@ msgid ""
 "\tNVDA+Control+y, Opens the folder with the converted files\n"
 "\tNVDA+Alt+y, Saves the subtitle of the video as text."
 msgstr ""
+"Перетворює відео з YouTube або мультимедійне посилання у формат MP3 або MP4 "
+"безпосередньо у браузері:\n"
+"    NVDA+y — перетворює поточне відео у формат MP3\n"
+"    NVDA+Shift+y — перетворює поточне відео у формат MP4\n"
+"    NVDA+Control+y — відкриває папку з перетвореними файлами\n"
+"    NVDA+Alt+y — зберігає субтитри відео у вигляді тексту."
 
 #~ msgid ""
 #~ "Converts a YouTube video or a multimedia link to MP3 or MP4 directly from "
